@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['cd_0',['CD',['../class_aerodynamic_objects_1_1_drag_model.html#a02949f987e7c1faf02a2dc59acdb0257',1,'AerodynamicObjects::DragModel']]],
+  ['cd_5finduced_1',['CD_induced',['../class_aerodynamic_objects_1_1_lift_model.html#a0afa1dadf2cececa3cc54ae9388b7d5b',1,'AerodynamicObjects::LiftModel']]],
+  ['cd_5fnormalflatplate_2',['CD_normalFlatPlate',['../class_aerodynamic_objects_1_1_drag_model.html#a7cadf56e4f2a60e7e9bf65b72e1c698a',1,'AerodynamicObjects::DragModel']]],
+  ['cd_5fpressure_5f0aoa_3',['CD_pressure_0aoa',['../class_aerodynamic_objects_1_1_drag_model.html#a540d51cfc66ca93e325e76306b98b82b',1,'AerodynamicObjects::DragModel']]],
+  ['cd_5fpressure_5f90aoa_4',['CD_pressure_90aoa',['../class_aerodynamic_objects_1_1_drag_model.html#a2f2ea85b636003e81303faccbfb8784f',1,'AerodynamicObjects::DragModel']]],
+  ['cd_5froughsphere_5',['CD_roughSphere',['../class_aerodynamic_objects_1_1_drag_model.html#ae36f5cf1bb524736cd4634b7c3e14b60',1,'AerodynamicObjects::DragModel']]],
+  ['cd_5fshear_5f0aoa_6',['CD_shear_0aoa',['../class_aerodynamic_objects_1_1_drag_model.html#ae821e09473d31361c232a5d1c5d3057d',1,'AerodynamicObjects::DragModel']]],
+  ['cd_5fshear_5f90aoa_7',['CD_shear_90aoa',['../class_aerodynamic_objects_1_1_drag_model.html#a17ab070e8bf8fecdb0749d0802395597',1,'AerodynamicObjects::DragModel']]],
+  ['cf_5flinear_8',['Cf_linear',['../class_aerodynamic_objects_1_1_drag_model.html#a56d3bcd508329880bfd49b1134012fab',1,'AerodynamicObjects::DragModel']]],
+  ['cl_9',['CL',['../class_aerodynamic_objects_1_1_lift_model.html#a946a9b56612838be32685d11170eb11e',1,'AerodynamicObjects::LiftModel']]],
+  ['cl_5fpoststall_10',['CL_postStall',['../class_aerodynamic_objects_1_1_lift_model.html#aa4763f9454e657118e49e926deb70afd',1,'AerodynamicObjects::LiftModel']]],
+  ['cl_5fprestall_11',['CL_preStall',['../class_aerodynamic_objects_1_1_lift_model.html#a346e6e95b67a817a04f607ae798875a7',1,'AerodynamicObjects::LiftModel']]],
+  ['clr_12',['CLr',['../class_aerodynamic_objects_1_1_rotational_lift_model.html#a7de158ff861ab6d19d463940cd995f44',1,'AerodynamicObjects::RotationalLiftModel']]],
+  ['cm_13',['CM',['../class_aerodynamic_objects_1_1_lift_model.html#a002abe6685830a8d36e0ec7b4b76b6df',1,'AerodynamicObjects::LiftModel']]],
+  ['cm_5f0_14',['CM_0',['../class_aerodynamic_objects_1_1_lift_model.html#ae709eda29e5cce8df2b26d064d8bea1a',1,'AerodynamicObjects::LiftModel']]],
+  ['cm_5fdelta_15',['CM_delta',['../class_aerodynamic_objects_1_1_lift_model.html#a50d57fee363bc45f0d463d55e5ec97c1',1,'AerodynamicObjects::LiftModel']]],
+  ['cop_5fz_16',['CoP_z',['../class_aerodynamic_objects_1_1_lift_model.html#ac29ad8b6febafe6781aab74848b36c75',1,'AerodynamicObjects::LiftModel']]],
+  ['czmax_17',['CZmax',['../class_aerodynamic_objects_1_1_lift_model.html#a13f66fd55dd42922dfb2951e5f6b593e',1,'AerodynamicObjects::LiftModel']]]
+];

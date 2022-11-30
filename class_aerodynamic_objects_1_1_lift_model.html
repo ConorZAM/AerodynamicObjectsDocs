@@ -111,12 +111,12 @@ Inheritance diagram for AerodynamicObjects.LiftModel:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abfd2971a8aaeb826bc20fcc033e9b960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_aerodynamic_objects_1_1_force.html">Force</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_lift_model.html#abfd2971a8aaeb826bc20fcc033e9b960">ComputeForces</a> (<a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a> ao, <a class="el" href="struct_aerodynamic_objects_1_1_body_struct.html">BodyStruct</a> bodyFrame)</td></tr>
-<tr class="memdesc:abfd2971a8aaeb826bc20fcc033e9b960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the aerodynamic force, and its point of action, acting on the aerodynamic body.   <a href="class_aerodynamic_objects_1_1_lift_model.html#abfd2971a8aaeb826bc20fcc033e9b960">More...</a><br /></td></tr>
-<tr class="separator:abfd2971a8aaeb826bc20fcc033e9b960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d87578df9bfb111a0648bb733717a41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_aerodynamic_objects_1_1_force.html">Force</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#a7d87578df9bfb111a0648bb733717a41">ComputeForces</a> (<a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a> ao, <a class="el" href="struct_aerodynamic_objects_1_1_body_struct.html">BodyStruct</a> bodyState)</td></tr>
-<tr class="memdesc:a7d87578df9bfb111a0648bb733717a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the aerodynamic force, and its point of action, acting on the aerodynamic body.   <a href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#a7d87578df9bfb111a0648bb733717a41">More...</a><br /></td></tr>
-<tr class="separator:a7d87578df9bfb111a0648bb733717a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66a27ff0bb7d6714df93f855e53bf96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_load.html">AerodynamicLoad</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_lift_model.html#ad66a27ff0bb7d6714df93f855e53bf96">GetAerodynamicLoad</a> (<a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a> ao, <a class="el" href="struct_aerodynamic_objects_1_1_body_struct.html">BodyStruct</a> bodyFrame)</td></tr>
+<tr class="memdesc:ad66a27ff0bb7d6714df93f855e53bf96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the aerodynamic load acting on the aerodynamic object.   <a href="class_aerodynamic_objects_1_1_lift_model.html#ad66a27ff0bb7d6714df93f855e53bf96">More...</a><br /></td></tr>
+<tr class="separator:ad66a27ff0bb7d6714df93f855e53bf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7ae9bac02479f8694542616d2995b3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_load.html">AerodynamicLoad</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#af7ae9bac02479f8694542616d2995b3d">GetAerodynamicLoad</a> (<a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a> ao, <a class="el" href="struct_aerodynamic_objects_1_1_body_struct.html">BodyStruct</a> bodyState)</td></tr>
+<tr class="memdesc:af7ae9bac02479f8694542616d2995b3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the aerodynamic load acting on the aerodynamic object.   <a href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#af7ae9bac02479f8694542616d2995b3d">More...</a><br /></td></tr>
+<tr class="separator:af7ae9bac02479f8694542616d2995b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -200,14 +200,14 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>stallSharpness</b> =
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Calculates the translational lift and induced drag forces acting on the object. Also calculates the pitching moment due to the lift acting at the centre of pressure and the moment due to camber of the object.  </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="abfd2971a8aaeb826bc20fcc033e9b960" name="abfd2971a8aaeb826bc20fcc033e9b960"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfd2971a8aaeb826bc20fcc033e9b960">&#9670;&#160;</a></span>ComputeForces()</h2>
+<a id="ad66a27ff0bb7d6714df93f855e53bf96" name="ad66a27ff0bb7d6714df93f855e53bf96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad66a27ff0bb7d6714df93f855e53bf96">&#9670;&#160;</a></span>GetAerodynamicLoad()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_aerodynamic_objects_1_1_force.html">Force</a> AerodynamicObjects.LiftModel.ComputeForces </td>
+          <td class="memname"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_load.html">AerodynamicLoad</a> AerodynamicObjects.LiftModel.GetAerodynamicLoad </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a>&#160;</td>
           <td class="paramname"><em>ao</em>, </td>
@@ -226,17 +226,17 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>stallSharpness</b> =
       </table>
 </div><div class="memdoc">
 
-<p>Compute the aerodynamic force, and its point of action, acting on the aerodynamic body.  </p>
+<p>Compute the aerodynamic load acting on the aerodynamic object.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ao</td><td>The aerodynamic object we want to compute the aerodynamic forces for.</td></tr>
+    <tr><td class="paramname">ao</td><td>The aerodynamic object we want to compute the aerodynamic load for.</td></tr>
     <tr><td class="paramname">bodyState</td><td>A struct containing the state of the object in the body frame of reference.</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The resulting aerodynamic force, moment, and the point at which the force acts</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The resulting aerodynamic load.</dd></dl>
 
-<p>Implements <a class="el" href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#a7d87578df9bfb111a0648bb733717a41">AerodynamicObjects.IAerodynamicModel</a>.</p>
+<p>Implements <a class="el" href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#af7ae9bac02479f8694542616d2995b3d">AerodynamicObjects.IAerodynamicModel</a>.</p>
 
 </div>
 </div>

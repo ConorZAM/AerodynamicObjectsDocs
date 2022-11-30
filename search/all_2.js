@@ -18,8 +18,7 @@ var searchData=
   ['cm_15',['CM',['../class_aerodynamic_objects_1_1_lift_model.html#a002abe6685830a8d36e0ec7b4b76b6df',1,'AerodynamicObjects::LiftModel']]],
   ['cm_5f0_16',['CM_0',['../class_aerodynamic_objects_1_1_lift_model.html#ae709eda29e5cce8df2b26d064d8bea1a',1,'AerodynamicObjects::LiftModel']]],
   ['cm_5fdelta_17',['CM_delta',['../class_aerodynamic_objects_1_1_lift_model.html#a50d57fee363bc45f0d463d55e5ec97c1',1,'AerodynamicObjects::LiftModel']]],
-  ['computeforces_18',['ComputeForces',['../class_aerodynamic_objects_1_1_drag_model.html#a75cc5fcb93f2d9d4f326b00962478192',1,'AerodynamicObjects.DragModel.ComputeForces()'],['../interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#a7d87578df9bfb111a0648bb733717a41',1,'AerodynamicObjects.IAerodynamicModel.ComputeForces()'],['../class_aerodynamic_objects_1_1_lift_model.html#abfd2971a8aaeb826bc20fcc033e9b960',1,'AerodynamicObjects.LiftModel.ComputeForces()'],['../class_aerodynamic_objects_1_1_rotational_drag_model.html#afb52060773a273971d5361088ae7fafa',1,'AerodynamicObjects.RotationalDragModel.ComputeForces()'],['../class_aerodynamic_objects_1_1_rotational_lift_model.html#adddf753db183c377b951091576921455',1,'AerodynamicObjects.RotationalLiftModel.ComputeForces()']]],
-  ['controlcamber_19',['ControlCamber',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a0c2bfdc9608fd645e2458966fbf82354',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['cop_5fz_20',['CoP_z',['../class_aerodynamic_objects_1_1_lift_model.html#ac29ad8b6febafe6781aab74848b36c75',1,'AerodynamicObjects::LiftModel']]],
-  ['czmax_21',['CZmax',['../class_aerodynamic_objects_1_1_lift_model.html#a13f66fd55dd42922dfb2951e5f6b593e',1,'AerodynamicObjects::LiftModel']]]
+  ['controlcamber_18',['ControlCamber',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a0c2bfdc9608fd645e2458966fbf82354',1,'AerodynamicObjects::AerodynamicObject']]],
+  ['cop_5fz_19',['CoP_z',['../class_aerodynamic_objects_1_1_lift_model.html#ac29ad8b6febafe6781aab74848b36c75',1,'AerodynamicObjects::LiftModel']]],
+  ['czmax_20',['CZmax',['../class_aerodynamic_objects_1_1_lift_model.html#a13f66fd55dd42922dfb2951e5f6b593e',1,'AerodynamicObjects::LiftModel']]]
 ];

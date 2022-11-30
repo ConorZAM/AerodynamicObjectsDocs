@@ -1,6 +1,6 @@
 var class_aerodynamic_objects_1_1_lift_model =
 [
-    [ "ComputeForces", "class_aerodynamic_objects_1_1_lift_model.html#abfd2971a8aaeb826bc20fcc033e9b960", null ],
+    [ "GetAerodynamicLoad", "class_aerodynamic_objects_1_1_lift_model.html#ad66a27ff0bb7d6714df93f855e53bf96", null ],
     [ "aspectRatioCorrection_kAR", "class_aerodynamic_objects_1_1_lift_model.html#a6299443f77883c8652adb83e3fdf6540", null ],
     [ "CD_induced", "class_aerodynamic_objects_1_1_lift_model.html#a0afa1dadf2cececa3cc54ae9388b7d5b", null ],
     [ "CL", "class_aerodynamic_objects_1_1_lift_model.html#a946a9b56612838be32685d11170eb11e", null ],

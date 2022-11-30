@@ -1,6 +1,6 @@
 var class_aerodynamic_objects_1_1_drag_model =
 [
-    [ "ComputeForces", "class_aerodynamic_objects_1_1_drag_model.html#a75cc5fcb93f2d9d4f326b00962478192", null ],
+    [ "GetAerodynamicLoad", "class_aerodynamic_objects_1_1_drag_model.html#acfbd5d514c94850cff5f3bfee045db70", null ],
     [ "CD", "class_aerodynamic_objects_1_1_drag_model.html#a02949f987e7c1faf02a2dc59acdb0257", null ],
     [ "CD_normalFlatPlate", "class_aerodynamic_objects_1_1_drag_model.html#a7cadf56e4f2a60e7e9bf65b72e1c698a", null ],
     [ "CD_pressure_0aoa", "class_aerodynamic_objects_1_1_drag_model.html#a540d51cfc66ca93e325e76306b98b82b", null ],

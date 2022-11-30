@@ -6,5 +6,5 @@ var searchData=
   ['midaxisvolume_3',['MidAxisVolume',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a66016a12dd2c43f942418e27211d33eb',1,'AerodynamicObjects::AerodynamicObject']]],
   ['minoraxis_4',['MinorAxis',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a34f46cd004422031ec46fbafc2ada7ac',1,'AerodynamicObjects::AerodynamicObject']]],
   ['minoraxisvolume_5',['MinorAxisVolume',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a4c8d89c10cb8e6ba998757e569c97a57',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['moment_6',['moment',['../class_aerodynamic_objects_1_1_force.html#a5dd9066ea5850d2104e1a6bd8b33d946',1,'AerodynamicObjects::Force']]]
+  ['moment_6',['moment',['../class_aerodynamic_objects_1_1_aerodynamic_load.html#ac7518b021afad31ce483c66f7d32f58d',1,'AerodynamicObjects::AerodynamicLoad']]]
 ];

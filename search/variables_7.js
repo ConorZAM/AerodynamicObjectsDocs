@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['liftcurveslope_0',['liftCurveSlope',['../class_aerodynamic_objects_1_1_lift_model.html#abfb77bfb44b89d492748d6e18b657c82',1,'AerodynamicObjects::LiftModel']]],
-  ['lowersigmoid_1',['lowerSigmoid',['../class_aerodynamic_objects_1_1_lift_model.html#a42c5330cda93f70cb2656a913df9f4db',1,'AerodynamicObjects::LiftModel']]]
+  ['inversebodyrotation_0',['inverseBodyRotation',['../struct_aerodynamic_objects_1_1_body_struct.html#a3926bcfead84942b3aed52b88c5a2f01',1,'AerodynamicObjects::BodyStruct']]]
 ];

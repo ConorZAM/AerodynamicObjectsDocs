@@ -128,13 +128,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>GetAnglesOfAttackAndS
 <tr class="memdesc:afc8ac192dd5fd32f7490097b16e3a44c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the angles of attack and sideslip for the object, based on its velocity.  <br /></td></tr>
 <tr class="separator:afc8ac192dd5fd32f7490097b16e3a44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a607e80ecb91f220aab0b4417f57c4ef1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html#a607e80ecb91f220aab0b4417f57c4ef1">SetVelocity</a> (Vector3 velocity, Vector3 angularVelocity)</td></tr>
-<tr class="memdesc:a607e80ecb91f220aab0b4417f57c4ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the object's velocity and rotational velocity.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#a607e80ecb91f220aab0b4417f57c4ef1">More...</a><br /></td></tr>
+<tr class="memdesc:a607e80ecb91f220aab0b4417f57c4ef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the velocity and rotational velocity in the body frame.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#a607e80ecb91f220aab0b4417f57c4ef1">More...</a><br /></td></tr>
 <tr class="separator:a607e80ecb91f220aab0b4417f57c4ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1757ae87cc614733fe973a0f5756d68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html#af1757ae87cc614733fe973a0f5756d68">SetVelocity</a> (Vector3 velocity)</td></tr>
-<tr class="memdesc:af1757ae87cc614733fe973a0f5756d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the object's velocity. With no angular velocity provided, it will be assumed that the object's angular velocity is zero. This is cheaper computationally than passing a zero vector for the angular velocity.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#af1757ae87cc614733fe973a0f5756d68">More...</a><br /></td></tr>
+<tr class="memdesc:af1757ae87cc614733fe973a0f5756d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the velocity in the body frame. With no angular velocity provided, it will be assumed that the object's angular velocity is zero. This is cheaper computationally than passing a zero vector for the angular velocity.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#af1757ae87cc614733fe973a0f5756d68">More...</a><br /></td></tr>
 <tr class="separator:af1757ae87cc614733fe973a0f5756d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae36be3ccb3fa256690493f395a6e4d56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html#ae36be3ccb3fa256690493f395a6e4d56">SetFluidVelocity</a> (Vector3 velocity)</td></tr>
-<tr class="memdesc:ae36be3ccb3fa256690493f395a6e4d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the velocity of the fluid local to the object.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#ae36be3ccb3fa256690493f395a6e4d56">More...</a><br /></td></tr>
+<tr class="memdesc:ae36be3ccb3fa256690493f395a6e4d56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the velocity of the fluid in the object and body frames of reference.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#ae36be3ccb3fa256690493f395a6e4d56">More...</a><br /></td></tr>
 <tr class="separator:ae36be3ccb3fa256690493f395a6e4d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e2ca466bf3659f48db33f1a85ef4ce1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html#a5e2ca466bf3659f48db33f1a85ef4ce1">AddToFluidVelocity</a> (Vector3 velocity)</td></tr>
 <tr class="memdesc:a5e2ca466bf3659f48db33f1a85ef4ce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add to the velocity of the fluid local to the object.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#a5e2ca466bf3659f48db33f1a85ef4ce1">More...</a><br /></td></tr>
@@ -144,7 +144,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>GetEllipsoidSurfaceA
 <tr class="memdesc:a6f6676485bd5ff6c58127b038efc0712"><td class="mdescLeft">&#160;</td><td class="mdescRight">The approximate surface area of the ellipsoid (m^2)  <br /></td></tr>
 <tr class="separator:a6f6676485bd5ff6c58127b038efc0712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac92b6aab536b0b0d3e6d99ac01ebe061"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html#ac92b6aab536b0b0d3e6d99ac01ebe061">SetDimensions</a> (float x, float y, float z)</td></tr>
-<tr class="memdesc:ac92b6aab536b0b0d3e6d99ac01ebe061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes the dimensions of the object in the Earth frame of reference and finds the rotation needed to provide a Body frame which has the (span, thickness, chord) aligned to (x, y, z). Sets the Body dimensions and rotation.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#ac92b6aab536b0b0d3e6d99ac01ebe061">More...</a><br /></td></tr>
+<tr class="memdesc:ac92b6aab536b0b0d3e6d99ac01ebe061"><td class="mdescLeft">&#160;</td><td class="mdescRight">Takes the dimensions of the object in the object's frame of reference and finds the rotation needed to provide a Body frame which has the (span, thickness, chord) aligned with (x, y, z). Sets the Body dimensions and rotation.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#ac92b6aab536b0b0d3e6d99ac01ebe061">More...</a><br /></td></tr>
 <tr class="separator:ac92b6aab536b0b0d3e6d99ac01ebe061"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef1fd14c47e840f65b3fcde3cb15b624"><td class="memItemLeft" align="right" valign="top"><a id="aef1fd14c47e840f65b3fcde3cb15b624" name="aef1fd14c47e840f65b3fcde3cb15b624"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RunAerodynamics</b> ()</td></tr>
@@ -171,24 +171,28 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>groupIndex</b> = -1</t
 <a class="el" href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html">IAerodynamicModel</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>AerodynamicModels</b> = new <a class="el" href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html">IAerodynamicModel</a>[0]</td></tr>
 <tr class="memdesc:ad9c8694ec501ee71f7db3516d2d8842a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The collection of aerodynamic models which will be applied to this object.  <br /></td></tr>
 <tr class="separator:ad9c8694ec501ee71f7db3516d2d8842a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2187035627c288260ed37f938b78e25c"><td class="memItemLeft" align="right" valign="top"><a id="a2187035627c288260ed37f938b78e25c" name="a2187035627c288260ed37f938b78e25c"></a>
-<a class="el" href="class_aerodynamic_objects_1_1_force.html">Force</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>AerodynamicForces</b> = new <a class="el" href="class_aerodynamic_objects_1_1_force.html">Force</a>[0]</td></tr>
-<tr class="memdesc:a2187035627c288260ed37f938b78e25c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The aerodynamic forces acting on the object. Given by the aerodynamic models attached to the object.  <br /></td></tr>
-<tr class="separator:a2187035627c288260ed37f938b78e25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5dec3a4b2a919730c44d7be01f5b814"><td class="memItemLeft" align="right" valign="top"><a id="ab5dec3a4b2a919730c44d7be01f5b814" name="ab5dec3a4b2a919730c44d7be01f5b814"></a>
-<a class="el" href="class_aerodynamic_objects_1_1_force.html">Force</a>&#160;</td><td class="memItemRight" valign="bottom"><b>NetAerodynamicForce</b> = new <a class="el" href="class_aerodynamic_objects_1_1_force.html">Force</a>()</td></tr>
-<tr class="memdesc:ab5dec3a4b2a919730c44d7be01f5b814"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sum of all the aerodynamic forces acting on the object in the object's frame of reference. Given by the aerodynamic models attached to the object.  <br /></td></tr>
-<tr class="separator:ab5dec3a4b2a919730c44d7be01f5b814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa059c8095500c681c20cf8dd44a20cb8"><td class="memItemLeft" align="right" valign="top"><a id="aa059c8095500c681c20cf8dd44a20cb8" name="aa059c8095500c681c20cf8dd44a20cb8"></a>
+<a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_load.html">AerodynamicLoad</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>AerodynamicLoads</b> = new <a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_load.html">AerodynamicLoad</a>[0]</td></tr>
+<tr class="memdesc:aa059c8095500c681c20cf8dd44a20cb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The aerodynamic loads acting on the object. Given by the aerodynamic models attached to the object. <br  />
+In the object frame of reference.  <br /></td></tr>
+<tr class="separator:aa059c8095500c681c20cf8dd44a20cb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35559d36841dbb66ae6ab0b7fddfb837"><td class="memItemLeft" align="right" valign="top"><a id="a35559d36841dbb66ae6ab0b7fddfb837" name="a35559d36841dbb66ae6ab0b7fddfb837"></a>
+<a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_load.html">AerodynamicLoad</a>&#160;</td><td class="memItemRight" valign="bottom"><b>NetAerodynamicLoad</b> = new <a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_load.html">AerodynamicLoad</a>()</td></tr>
+<tr class="memdesc:a35559d36841dbb66ae6ab0b7fddfb837"><td class="mdescLeft">&#160;</td><td class="mdescRight">The sum of all the aerodynamic loads acting on the object. Given by the aerodynamic models attached to the object. <br  />
+In the object frame of reference.  <br /></td></tr>
+<tr class="separator:a35559d36841dbb66ae6ab0b7fddfb837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a5ba7066d0ea362281ffcb2631765634f"><td class="memItemLeft" align="right" valign="top"><a id="a5ba7066d0ea362281ffcb2631765634f" name="a5ba7066d0ea362281ffcb2631765634f"></a>
 Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>RelativeVelocity</b><code> [get]</code></td></tr>
-<tr class="memdesc:a5ba7066d0ea362281ffcb2631765634f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the object relative to the fluid's velocity in the object's frame of reference. (m/s) (Read Only)  <br /></td></tr>
+<tr class="memdesc:a5ba7066d0ea362281ffcb2631765634f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the object relative to the fluid. (m/s) (Read Only) <br  />
+In the object frame of reference.  <br /></td></tr>
 <tr class="separator:a5ba7066d0ea362281ffcb2631765634f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb63c0d94707dcf5c1694c438923bc29"><td class="memItemLeft" align="right" valign="top"><a id="abb63c0d94707dcf5c1694c438923bc29" name="abb63c0d94707dcf5c1694c438923bc29"></a>
 Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>AngleOfAttackRotationVector</b><code> [get]</code></td></tr>
-<tr class="memdesc:abb63c0d94707dcf5c1694c438923bc29"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vector about which the angle of attack rotation is defined. (Read Only)  <br /></td></tr>
+<tr class="memdesc:abb63c0d94707dcf5c1694c438923bc29"><td class="mdescLeft">&#160;</td><td class="mdescRight">The vector about which the angle of attack rotation is defined. (Read Only) <br  />
+In the body frame of reference.  <br /></td></tr>
 <tr class="separator:abb63c0d94707dcf5c1694c438923bc29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a466ad89904f5109f078ff2d61cd38d"><td class="memItemLeft" align="right" valign="top"><a id="a5a466ad89904f5109f078ff2d61cd38d" name="a5a466ad89904f5109f078ff2d61cd38d"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>AngleOfAttack</b><code> [get]</code></td></tr>
@@ -200,7 +204,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>AngleOfSideslip</b><
 <tr class="separator:a761862dea32786f3a114b7c2fc8b1af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29d0f23043a2e8adac47137351d8fe68"><td class="memItemLeft" align="right" valign="top"><a id="a29d0f23043a2e8adac47137351d8fe68" name="a29d0f23043a2e8adac47137351d8fe68"></a>
 Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>FluidVelocity</b><code> [get]</code></td></tr>
-<tr class="memdesc:a29d0f23043a2e8adac47137351d8fe68"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the fluid local to the object. (m/s) (Read Only - use SetFluidVelocity or AddToFluidVelocity to change this value.)  <br /></td></tr>
+<tr class="memdesc:a29d0f23043a2e8adac47137351d8fe68"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the fluid (m/s) (Read Only - use SetFluidVelocity or AddToFluidVelocity to change this value.) <br  />
+In the object frame of reference.  <br /></td></tr>
 <tr class="separator:a29d0f23043a2e8adac47137351d8fe68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02f9cbb0698f431df925f1122852a9de"><td class="memItemLeft" align="right" valign="top"><a id="a02f9cbb0698f431df925f1122852a9de" name="a02f9cbb0698f431df925f1122852a9de"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>FluidPressure</b><code> [get, set]</code></td></tr>
@@ -307,7 +312,7 @@ due to the object's dimensions and state, as well as the state and properties of
 <p>Add to the velocity of the fluid local to the object.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">velocity</td><td>Velocity increment for the fluid in the object's frame of reference. (m/s)</td></tr>
+    <tr><td class="paramname">velocity</td><td>Velocity increment for the fluid in the object frame of reference. (m/s)</td></tr>
   </table>
   </dd>
 </dl>
@@ -409,12 +414,12 @@ due to the object's dimensions and state, as well as the state and properties of
       </table>
 </div><div class="memdoc">
 
-<p>Takes the dimensions of the object in the Earth frame of reference and finds the rotation needed to provide a Body frame which has the (span, thickness, chord) aligned to (x, y, z). Sets the Body dimensions and rotation.  </p>
+<p>Takes the dimensions of the object in the object's frame of reference and finds the rotation needed to provide a Body frame which has the (span, thickness, chord) aligned with (x, y, z). Sets the Body dimensions and rotation.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">x</td><td>The dimension of the aerodynamic object in Earth x axis (m)</td></tr>
-    <tr><td class="paramname">y</td><td>The dimension of the aerodynamic object in Earth y axis (m)</td></tr>
-    <tr><td class="paramname">z</td><td>The dimension of the aerodynamic object in Earth z axis (m)</td></tr>
+    <tr><td class="paramname">x</td><td>The dimension of the aerodynamic object in the object's x axis (m)</td></tr>
+    <tr><td class="paramname">y</td><td>The dimension of the aerodynamic object in the object's y axis (m)</td></tr>
+    <tr><td class="paramname">z</td><td>The dimension of the aerodynamic object in the object's z axis (m)</td></tr>
   </table>
   </dd>
 </dl>
@@ -437,10 +442,10 @@ due to the object's dimensions and state, as well as the state and properties of
       </table>
 </div><div class="memdoc">
 
-<p>Sets the velocity of the fluid local to the object.  </p>
+<p>Sets the velocity of the fluid in the object and body frames of reference.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">velocity</td><td>Velocity of the fluid in the object's frame of reference. (m/s)</td></tr>
+    <tr><td class="paramname">velocity</td><td>Velocity of the fluid in the object frame of reference. (m/s)</td></tr>
   </table>
   </dd>
 </dl>
@@ -463,10 +468,10 @@ due to the object's dimensions and state, as well as the state and properties of
       </table>
 </div><div class="memdoc">
 
-<p>Set the object's velocity. With no angular velocity provided, it will be assumed that the object's angular velocity is zero. This is cheaper computationally than passing a zero vector for the angular velocity.  </p>
+<p>Set the velocity in the body frame. With no angular velocity provided, it will be assumed that the object's angular velocity is zero. This is cheaper computationally than passing a zero vector for the angular velocity.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">velocity</td><td>Velocity of the object in the object's frame of reference. (m/s)</td></tr>
+    <tr><td class="paramname">velocity</td><td>Velocity of the object in the object frame of reference. (m/s)</td></tr>
   </table>
   </dd>
 </dl>
@@ -499,7 +504,7 @@ due to the object's dimensions and state, as well as the state and properties of
       </table>
 </div><div class="memdoc">
 
-<p>Set the object's velocity and rotational velocity.  </p>
+<p>Set the velocity and rotational velocity in the body frame.  </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">velocity</td><td>The velocity in the object's frame of reference. (m/s)</td></tr>

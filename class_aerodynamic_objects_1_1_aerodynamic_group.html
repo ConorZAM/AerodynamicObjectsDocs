@@ -111,6 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a40240ee67dbd3b86b4e955fd80212c96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_group.html#a40240ee67dbd3b86b4e955fd80212c96">SetObjectsAsGroup</a> (<a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a>[] aos)</td></tr>
 <tr class="memdesc:a40240ee67dbd3b86b4e955fd80212c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the aerodynamic objects of the group. This will overwrite the previous array.   <a href="class_aerodynamic_objects_1_1_aerodynamic_group.html#a40240ee67dbd3b86b4e955fd80212c96">More...</a><br /></td></tr>
 <tr class="separator:a40240ee67dbd3b86b4e955fd80212c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb3374178aa66a163eaf78c3734a808b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_group.html#afb3374178aa66a163eaf78c3734a808b">SetObjectAsGroup</a> (<a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a> ao)</td></tr>
+<tr class="memdesc:afb3374178aa66a163eaf78c3734a808b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the aerodynamic objects of the group. This will overwrite the previous array.   <a href="class_aerodynamic_objects_1_1_aerodynamic_group.html#afb3374178aa66a163eaf78c3734a808b">More...</a><br /></td></tr>
+<tr class="separator:afb3374178aa66a163eaf78c3734a808b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d8a6b308598d85724c6a3a1da2487a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_group.html#a4d8a6b308598d85724c6a3a1da2487a0">RemoveAt</a> (int index)</td></tr>
 <tr class="memdesc:a4d8a6b308598d85724c6a3a1da2487a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the aerodynamic object from the group array at the given index.   <a href="class_aerodynamic_objects_1_1_aerodynamic_group.html#a4d8a6b308598d85724c6a3a1da2487a0">More...</a><br /></td></tr>
 <tr class="separator:a4d8a6b308598d85724c6a3a1da2487a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -118,9 +121,9 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>ClearGroup</b> ()</td></tr>
 <tr class="memdesc:a31bd82ce8a7d6fbe65c7d76e194f3e55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove all objects from the group. Creates a new array of length zero. Does not ungroup the objects in the group.  <br /></td></tr>
 <tr class="separator:a31bd82ce8a7d6fbe65c7d76e194f3e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0beb3b99366567a1f9f8ee406e2d0bb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_group.html#a0beb3b99366567a1f9f8ee406e2d0bb4">UpdateMemberInfo</a> (int index, float area)</td></tr>
-<tr class="memdesc:a0beb3b99366567a1f9f8ee406e2d0bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the area of the object in the group. This is necessary because the group cannot store references to aerodynamic objects for serialisation reasons.   <a href="class_aerodynamic_objects_1_1_aerodynamic_group.html#a0beb3b99366567a1f9f8ee406e2d0bb4">More...</a><br /></td></tr>
-<tr class="separator:a0beb3b99366567a1f9f8ee406e2d0bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d2fdcc172e645bd7d60c0f7a10fd7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_group.html#a42d2fdcc172e645bd7d60c0f7a10fd7d">UpdateMemberInfo</a> (int index, double area)</td></tr>
+<tr class="memdesc:a42d2fdcc172e645bd7d60c0f7a10fd7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the area of the object in the group. This is necessary because the group cannot store references to aerodynamic objects for serialisation reasons.   <a href="class_aerodynamic_objects_1_1_aerodynamic_group.html#a42d2fdcc172e645bd7d60c0f7a10fd7d">More...</a><br /></td></tr>
+<tr class="separator:a42d2fdcc172e645bd7d60c0f7a10fd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab413c6b408a5665bedaa70d5628bb03b"><td class="memItemLeft" align="right" valign="top"><a id="ab413c6b408a5665bedaa70d5628bb03b" name="ab413c6b408a5665bedaa70d5628bb03b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateAreaScaling</b> ()</td></tr>
 <tr class="memdesc:ab413c6b408a5665bedaa70d5628bb03b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the ratio of the group's planform area to the total area of the aerodynamic objects in the group. This ratio is then used to scale the planform areas of each object in the group so that their total planform area matches the intended group planform area.  <br /></td></tr>
@@ -128,22 +131,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>UpdateAreaScaling</b>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af4416c4f832c90722dbffb49ad7f8e08"><td class="memItemLeft" align="right" valign="top"><a id="af4416c4f832c90722dbffb49ad7f8e08" name="af4416c4f832c90722dbffb49ad7f8e08"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>planformArea</b></td></tr>
-<tr class="memdesc:af4416c4f832c90722dbffb49ad7f8e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">The planform area of the group. This is used to scale the areas of all associated aerodynamic objects. (m^2)  <br /></td></tr>
-<tr class="separator:af4416c4f832c90722dbffb49ad7f8e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeca6c379339b0c992f83b1dcfae4840a"><td class="memItemLeft" align="right" valign="top"><a id="aeca6c379339b0c992f83b1dcfae4840a" name="aeca6c379339b0c992f83b1dcfae4840a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>aspectRatio</b></td></tr>
-<tr class="memdesc:aeca6c379339b0c992f83b1dcfae4840a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The aspect ratio of the group. Any aerodynamic object in the group will be assigned the same aspect ratio as the group. (dimensionless)  <br /></td></tr>
-<tr class="separator:aeca6c379339b0c992f83b1dcfae4840a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf31b5818054ed4d90b7ba768a27954d"><td class="memItemLeft" align="right" valign="top"><a id="acf31b5818054ed4d90b7ba768a27954d" name="acf31b5818054ed4d90b7ba768a27954d"></a>
-float[]&#160;</td><td class="memItemRight" valign="bottom"><b>objectPlanformAreas</b> = new float[0]</td></tr>
-<tr class="memdesc:acf31b5818054ed4d90b7ba768a27954d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the planform areas of each object in the group.  <br /></td></tr>
-<tr class="separator:acf31b5818054ed4d90b7ba768a27954d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac614b1f558e1a490e70bd7c001ceaca4"><td class="memItemLeft" align="right" valign="top"><a id="ac614b1f558e1a490e70bd7c001ceaca4" name="ac614b1f558e1a490e70bd7c001ceaca4"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>objectAreaScale</b></td></tr>
-<tr class="memdesc:ac614b1f558e1a490e70bd7c001ceaca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value used to scale each aerodynamic object's planform area so that their total planform area matches the group planform area. (dimensionless)  <br /></td></tr>
-<tr class="separator:ac614b1f558e1a490e70bd7c001ceaca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84e3f4344097db35fc05274dc03304c6"><td class="memItemLeft" align="right" valign="top"><a id="a84e3f4344097db35fc05274dc03304c6" name="a84e3f4344097db35fc05274dc03304c6"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>planformArea</b></td></tr>
+<tr class="memdesc:a84e3f4344097db35fc05274dc03304c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The planform area of the group. This is used to scale the areas of all associated aerodynamic objects. (m^2)  <br /></td></tr>
+<tr class="separator:a84e3f4344097db35fc05274dc03304c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262fc365f645b2e17f705d527eb896cf"><td class="memItemLeft" align="right" valign="top"><a id="a262fc365f645b2e17f705d527eb896cf" name="a262fc365f645b2e17f705d527eb896cf"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>Span</b></td></tr>
+<tr class="memdesc:a262fc365f645b2e17f705d527eb896cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The total span of the group. Any aerodynamic object in the group will use the group span to determine its own aspect ratio. (m)  <br /></td></tr>
+<tr class="separator:a262fc365f645b2e17f705d527eb896cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3389ec194ad05d2e88f932fdf34f7961"><td class="memItemLeft" align="right" valign="top"><a id="a3389ec194ad05d2e88f932fdf34f7961" name="a3389ec194ad05d2e88f932fdf34f7961"></a>
+double[]&#160;</td><td class="memItemRight" valign="bottom"><b>objectPlanformAreas</b> = new double[0]</td></tr>
+<tr class="memdesc:a3389ec194ad05d2e88f932fdf34f7961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the planform areas of each object in the group.  <br /></td></tr>
+<tr class="separator:a3389ec194ad05d2e88f932fdf34f7961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a704676884cef350ef4279e978bdcce41"><td class="memItemLeft" align="right" valign="top"><a id="a704676884cef350ef4279e978bdcce41" name="a704676884cef350ef4279e978bdcce41"></a>
+double&#160;</td><td class="memItemRight" valign="bottom"><b>objectAreaScale</b></td></tr>
+<tr class="memdesc:a704676884cef350ef4279e978bdcce41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value used to scale each aerodynamic object's planform area so that their total planform area matches the group planform area. (dimensionless)  <br /></td></tr>
+<tr class="separator:a704676884cef350ef4279e978bdcce41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Used to combine Aerodynamic Objects by adjusting their individual planform areas so that their total planform area matches the <a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_group.html" title="Used to combine Aerodynamic Objects by adjusting their individual planform areas so that their total ...">AerodynamicGroup</a> planform area. This enables the construction of composite objects which have their own defined planform areas, such as wings.  </p>
@@ -226,6 +229,32 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>objectAreaScale</b><
 
 </div>
 </div>
+<a id="afb3374178aa66a163eaf78c3734a808b" name="afb3374178aa66a163eaf78c3734a808b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb3374178aa66a163eaf78c3734a808b">&#9670;&#160;</a></span>SetObjectAsGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AerodynamicObjects.AerodynamicGroup.SetObjectAsGroup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a>&#160;</td>
+          <td class="paramname"><em>ao</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the aerodynamic objects of the group. This will overwrite the previous array.  </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ao</td><td>The object to set for the group</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a40240ee67dbd3b86b4e955fd80212c96" name="a40240ee67dbd3b86b4e955fd80212c96"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40240ee67dbd3b86b4e955fd80212c96">&#9670;&#160;</a></span>SetObjectsAsGroup()</h2>
 
@@ -252,8 +281,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>objectAreaScale</b><
 
 </div>
 </div>
-<a id="a0beb3b99366567a1f9f8ee406e2d0bb4" name="a0beb3b99366567a1f9f8ee406e2d0bb4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0beb3b99366567a1f9f8ee406e2d0bb4">&#9670;&#160;</a></span>UpdateMemberInfo()</h2>
+<a id="a42d2fdcc172e645bd7d60c0f7a10fd7d" name="a42d2fdcc172e645bd7d60c0f7a10fd7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d2fdcc172e645bd7d60c0f7a10fd7d">&#9670;&#160;</a></span>UpdateMemberInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,7 +296,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>objectAreaScale</b><
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>area</em>&#160;</td>
         </tr>
         <tr>
@@ -290,7 +319,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>objectAreaScale</b><
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>VS Core Project/AO/AerodynamicGroup.cs</li>
+<li>AerodynamicObjectsSource/AerodynamicGroup.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

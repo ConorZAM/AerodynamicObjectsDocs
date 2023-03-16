@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['thickness_0',['Thickness',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a88ba1ae74a894c736d01f3abc74a119c',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['thicknesscorrection_5fkt_1',['thicknessCorrection_kt',['../class_aerodynamic_objects_1_1_lift_model.html#a359b7100faf0cfd542b13da59bbc20da',1,'AerodynamicObjects::LiftModel']]],
-  ['thicknesscorrectionaggressiveness_2',['thicknessCorrectionAggressiveness',['../class_aerodynamic_objects_1_1_lift_model.html#ac149e3ce097852152625f33c306125fe',1,'AerodynamicObjects::LiftModel']]],
-  ['totalcamber_3',['TotalCamber',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#adac94f2735b73d4d170079c4489a5466',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['transformfrombodytoobject_4',['TransformFromBodyToObject',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#ae7c0f0cbe13d1ef2babd7d1086acbe4e',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['transformfromobjecttobody_5',['TransformFromObjectToBody',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a4787063e95d78d1960b5f7b1a4648ada',1,'AerodynamicObjects::AerodynamicObject']]]
+  ['referenceframe_0',['ReferenceFrame',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a4968bc2a6ac54f9664a6940fc057582a',1,'AerodynamicObjects::AerodynamicObject']]],
+  ['removeat_1',['RemoveAt',['../class_aerodynamic_objects_1_1_aerodynamic_group.html#a4d8a6b308598d85724c6a3a1da2487a0',1,'AerodynamicObjects::AerodynamicGroup']]],
+  ['reynoldsnumber_2',['reynoldsNumber',['../class_aerodynamic_objects_1_1_drag_model.html#a24f920ab4982543759219d9c1e55350b',1,'AerodynamicObjects::DragModel']]],
+  ['rotationaldampingmodel_3',['RotationalDampingModel',['../class_aerodynamic_objects_1_1_rotational_damping_model.html',1,'AerodynamicObjects']]],
+  ['rotationalliftmodel_4',['RotationalLiftModel',['../class_aerodynamic_objects_1_1_rotational_lift_model.html',1,'AerodynamicObjects']]],
+  ['runaerodynamics_5',['RunAerodynamics',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#aef1fd14c47e840f65b3fcde3cb15b624',1,'AerodynamicObjects::AerodynamicObject']]]
 ];

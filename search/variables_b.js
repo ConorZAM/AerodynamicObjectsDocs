@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['objectareascale_0',['objectAreaScale',['../class_aerodynamic_objects_1_1_aerodynamic_group.html#ac614b1f558e1a490e70bd7c001ceaca4',1,'AerodynamicObjects::AerodynamicGroup']]],
-  ['objectplanformareas_1',['objectPlanformAreas',['../class_aerodynamic_objects_1_1_aerodynamic_group.html#acf31b5818054ed4d90b7ba768a27954d',1,'AerodynamicObjects::AerodynamicGroup']]]
+  ['planformarea_0',['planformArea',['../class_aerodynamic_objects_1_1_aerodynamic_group.html#a84e3f4344097db35fc05274dc03304c6',1,'AerodynamicObjects::AerodynamicGroup']]],
+  ['pressure_1',['pressure',['../class_aerodynamic_objects_1_1_fluid.html#ae7f42b8e14cff2602a864042bdd39bc2',1,'AerodynamicObjects::Fluid']]]
 ];

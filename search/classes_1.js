@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bodystruct_0',['BodyStruct',['../struct_aerodynamic_objects_1_1_body_struct.html',1,'AerodynamicObjects']]]
+  ['buoyancymodel_0',['BuoyancyModel',['../class_aerodynamic_objects_1_1_buoyancy_model.html',1,'AerodynamicObjects']]]
 ];

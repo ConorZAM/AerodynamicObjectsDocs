@@ -104,17 +104,14 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the aerodynamic load acting on an object, including the force vector and the moment.   <a href="class_aerodynamic_objects_1_1_aerodynamic_load.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html">AerodynamicObject</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><br  />
-An Aerodynamic Object determines the aerodynamic forces and moments acting on itself <br  />
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An Aerodynamic Object determines the aerodynamic forces and moments acting on itself <br  />
 due to the object's dimensions and state, as well as the state and properties of the fluid around the object.   <a href="class_aerodynamic_objects_1_1_aerodynamic_object.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_aerodynamic_objects_1_1_body_struct.html">BodyStruct</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct used to hold the state of an object in its body frame of reference. This is used to hide these values from end users and to prevent confusion between the body and object frames of reference.   <a href="struct_aerodynamic_objects_1_1_body_struct.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_buoyancy_model.html">BuoyancyModel</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a simple buoyancy force based on the volume of the ellipsoid body and the density of the fluid around the object.   <a href="class_aerodynamic_objects_1_1_buoyancy_model.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_drag_model.html">DragModel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a translational drag force based on the square of the object's velocity and the planform area.   <a href="class_aerodynamic_objects_1_1_drag_model.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>ExtraValues</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html">Fluid</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the properties and state of a fluid.   <a href="class_aerodynamic_objects_1_1_fluid.html#details">More...</a><br /></td></tr>
@@ -123,7 +120,7 @@ due to the object's dimensions and state, as well as the state and properties of
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface used by aerodynamic models, such as: Lift, Drag, Rotational Lift, Rotational Drag. This interface allows for additional models to be developed and used by aerodynamic objects.   <a href="interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_lift_model.html">LiftModel</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the translational lift and induced drag forces acting on the object. Also calculates the pitching moment due to the lift acting at the centre of pressure and the moment due to camber of the object.   <a href="class_aerodynamic_objects_1_1_lift_model.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the translational lift and induced drag forces acting on the object. Also calculates the pitching moment due to the lift acting at the aerodynamic centre and the moment due to camber of the object.   <a href="class_aerodynamic_objects_1_1_lift_model.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_rotational_damping_model.html">RotationalDampingModel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the damping force due to the rotational velocity of the object.   <a href="class_aerodynamic_objects_1_1_rotational_damping_model.html#details">More...</a><br /></td></tr>

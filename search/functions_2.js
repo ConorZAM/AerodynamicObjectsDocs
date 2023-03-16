@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['getaerodynamicload_0',['GetAerodynamicLoad',['../class_aerodynamic_objects_1_1_drag_model.html#acfbd5d514c94850cff5f3bfee045db70',1,'AerodynamicObjects.DragModel.GetAerodynamicLoad()'],['../interface_aerodynamic_objects_1_1_i_aerodynamic_model.html#af7ae9bac02479f8694542616d2995b3d',1,'AerodynamicObjects.IAerodynamicModel.GetAerodynamicLoad()'],['../class_aerodynamic_objects_1_1_lift_model.html#ad66a27ff0bb7d6714df93f855e53bf96',1,'AerodynamicObjects.LiftModel.GetAerodynamicLoad()'],['../class_aerodynamic_objects_1_1_rotational_damping_model.html#a4f3d7c24e666f60b66e2d9fc878169b9',1,'AerodynamicObjects.RotationalDampingModel.GetAerodynamicLoad()'],['../class_aerodynamic_objects_1_1_rotational_lift_model.html#aad596ad31b88269aa4ce6a1554db1a7a',1,'AerodynamicObjects.RotationalLiftModel.GetAerodynamicLoad()']]],
-  ['getanglesofattackandsideslip_1',['GetAnglesOfAttackAndSideslip',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#afc8ac192dd5fd32f7490097b16e3a44c',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['getdynamicpressure_2',['GetDynamicPressure',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a3ca8d8fbe9b9a9176973ffe3862493d5',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['getellipsoidsurfacearea_3',['GetEllipsoidSurfaceArea',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a6f6676485bd5ff6c58127b038efc0712',1,'AerodynamicObjects::AerodynamicObject']]]
+  ['dot_0',['Dot',['../class_aerodynamic_objects_1_1_numerics_1_1_vector3.html#a5851e3014e4bfb5700f3a843a9a9db39',1,'AerodynamicObjects::Numerics::Vector3']]]
 ];

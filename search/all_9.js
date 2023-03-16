@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['majoraxis_0',['MajorAxis',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#aa0e46f9618f3e23e27d5c6c93f661d29',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['majoraxisvolume_1',['MajorAxisVolume',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#aab44452721def85b6a160cac2a0d67c2',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['midaxis_2',['MidAxis',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a6bec6ec0bde642ebc2411e1ecae10467',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['midaxisvolume_3',['MidAxisVolume',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a66016a12dd2c43f942418e27211d33eb',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['minoraxis_4',['MinorAxis',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a34f46cd004422031ec46fbafc2ada7ac',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['minoraxisvolume_5',['MinorAxisVolume',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a4c8d89c10cb8e6ba998757e569c97a57',1,'AerodynamicObjects::AerodynamicObject']]],
-  ['moment_6',['moment',['../class_aerodynamic_objects_1_1_aerodynamic_load.html#ac7518b021afad31ce483c66f7d32f58d',1,'AerodynamicObjects::AerodynamicLoad']]]
+  ['liftcurveslope_0',['liftCurveSlope',['../class_aerodynamic_objects_1_1_lift_model.html#aea19ceb540d890384a45e90d7f74756a',1,'AerodynamicObjects::LiftModel']]],
+  ['liftmodel_1',['LiftModel',['../class_aerodynamic_objects_1_1_lift_model.html',1,'AerodynamicObjects']]],
+  ['localangularvelocity_2',['LocalAngularVelocity',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a1bfa90e697147421d838cd0374b71509',1,'AerodynamicObjects::AerodynamicObject']]],
+  ['localinverserotation_3',['LocalInverseRotation',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a07a723e01e27a3219830e5a01ac5924d',1,'AerodynamicObjects::AerodynamicObject']]],
+  ['localrelativevelocity_4',['LocalRelativeVelocity',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#a89cb6a33b458ee265ee063492c3e44e3',1,'AerodynamicObjects::AerodynamicObject']]],
+  ['localrotation_5',['LocalRotation',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#aab6b07d8aff0c83688ee7a3be297a888',1,'AerodynamicObjects::AerodynamicObject']]],
+  ['localvelocity_6',['LocalVelocity',['../class_aerodynamic_objects_1_1_aerodynamic_object.html#ac2892e32eedaef73c34eedc544f20979',1,'AerodynamicObjects::AerodynamicObject']]],
+  ['localvelocity_7',['localVelocity',['../class_aerodynamic_objects_1_1_fluid.html#a46170a436d5a236135c777989da26b01',1,'AerodynamicObjects::Fluid']]],
+  ['lowersigmoid_8',['lowerSigmoid',['../class_aerodynamic_objects_1_1_lift_model.html#ae23319b710039c56b815aa53b26be1b7',1,'AerodynamicObjects::LiftModel']]]
 ];

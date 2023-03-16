@@ -36,6 +36,7 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ]
@@ -44,7 +45,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"class_aerodynamic_objects_1_1_numerics_1_1_vector3.html#a0a198daa60a30fff4cd68f4aa697797e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

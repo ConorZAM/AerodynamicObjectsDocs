@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['liftcurveslope_0',['liftCurveSlope',['../class_aerodynamic_objects_1_1_lift_model.html#abfb77bfb44b89d492748d6e18b657c82',1,'AerodynamicObjects::LiftModel']]],
-  ['liftmodel_1',['LiftModel',['../class_aerodynamic_objects_1_1_lift_model.html',1,'AerodynamicObjects']]],
-  ['lowersigmoid_2',['lowerSigmoid',['../class_aerodynamic_objects_1_1_lift_model.html#a42c5330cda93f70cb2656a913df9f4db',1,'AerodynamicObjects::LiftModel']]]
+  ['iaerodynamicmodel_0',['IAerodynamicModel',['../interface_aerodynamic_objects_1_1_i_aerodynamic_model.html',1,'AerodynamicObjects']]],
+  ['identity_1',['Identity',['../class_aerodynamic_objects_1_1_numerics_1_1_quaternion.html#ae969d9599a1d17e76b78ffce391e9c35',1,'AerodynamicObjects::Numerics::Quaternion']]]
 ];

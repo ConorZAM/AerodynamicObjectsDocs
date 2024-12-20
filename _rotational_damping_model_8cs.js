@@ -1,0 +1,5 @@
+var _rotational_damping_model_8cs =
+[
+    [ "AerodynamicObjects.Aerodynamics.RotationalDampingModel", "class_aerodynamic_objects_1_1_aerodynamics_1_1_rotational_damping_model.html", "class_aerodynamic_objects_1_1_aerodynamics_1_1_rotational_damping_model" ],
+    [ "AerodynamicObjects.Aerodynamics.RotationalDampingModel.DampingAxisModel", "class_aerodynamic_objects_1_1_aerodynamics_1_1_rotational_damping_model_1_1_damping_axis_model.html", "class_aerodynamic_objects_1_1_aerodynamics_1_1_rotational_damping_model_1_1_damping_axis_model" ]
+];

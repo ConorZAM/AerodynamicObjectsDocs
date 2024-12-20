@@ -24,20 +24,33 @@
 */
 var NAVTREE =
 [
-  [ "Aerodynamic Objects", "index.html", [
+  [ "Aerodynamic Objects Core", "index.html", [
     [ "Packages", "namespaces.html", [
-      [ "Package List", "namespaces.html", "namespaces_dup" ]
+      [ "Package List", "namespaces.html", "namespaces_dup" ],
+      [ "Package Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Properties", "functions_prop.html", null ]
+      ] ]
+    ] ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ]
       ] ]
     ] ]
   ] ]
@@ -45,8 +58,17 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"class_aerodynamic_objects_1_1_numerics_1_1_vector3.html#a0a198daa60a30fff4cd68f4aa697797e"
+"_actuator_8cs.html",
+"class_aerodynamic_objects_1_1_aero_object.html#ab699d1b594cf72574eae29c8768230f0",
+"class_aerodynamic_objects_1_1_aerodynamics_1_1_lift_model.html#a8952703d44fc3fdc0597e44a2a3030d3",
+"class_aerodynamic_objects_1_1_control_surface.html#a50ceee9d08d16740a6da41eb414b082f",
+"class_aerodynamic_objects_1_1_demos_1_1_body_motion.html",
+"class_aerodynamic_objects_1_1_demos_1_1_generator.html#aff01080ef7aad455770ff7898c60ed64",
+"class_aerodynamic_objects_1_1_demos_1_1_propeller_engine.html",
+"class_aerodynamic_objects_1_1_demos_1_1_wind_turbine_editor.html",
+"class_aerodynamic_objects_1_1_flow_1_1_vortex_filament.html#a4fb268145475123f33110807a908c194",
+"class_aerodynamic_objects_1_1_fluid_volume.html#a04e05559d75dea0871b9b60cb45490ba",
+"class_aerodynamic_objects_1_1_utility_1_1_gimbal.html#a69a9780d2aa120951388e9a4de3b69a3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Aerodynamic Objects: AerodynamicObjects.Fluid Class Reference</title>
+<title>Aerodynamic Objects Core: AerodynamicObjects.Fluid Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -17,6 +17,8 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -25,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Aerodynamic Objects
+   <div id="projectname">Aerodynamic Objects Core<span id="projectnumber">&#160;1.0.4</span>
    </div>
   </td>
  </tr>
@@ -92,100 +94,150 @@ $(document).ready(function(){initNavTree('class_aerodynamic_objects_1_1_fluid.ht
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#properties">Properties</a> &#124;
 <a href="class_aerodynamic_objects_1_1_fluid-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">AerodynamicObjects.Fluid Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>Contains the properties and state of a fluid.   
+<p>Contains the properties and state of a fluid.  
  <a href="class_aerodynamic_objects_1_1_fluid.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a158c381c9eb021e22b2c511e595399d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html#a158c381c9eb021e22b2c511e595399d7">SetVelocity</a> (<a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a> _globalVelocity, <a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a> _localVelocity, <a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a> _bodyVelocity)</td></tr>
-<tr class="memdesc:a158c381c9eb021e22b2c511e595399d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the velocity of the fluid. Requires the velocity in both the object frame and the body frame. This is an internally used function. Consider using <a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html#ae36be3ccb3fa256690493f395a6e4d56" title="Sets the velocity of the fluid around the object using a velocity in the global (earth) frame of refe...">AerodynamicObject.SetFluidVelocity</a> instead.   <a href="class_aerodynamic_objects_1_1_fluid.html#a158c381c9eb021e22b2c511e595399d7">More...</a><br /></td></tr>
-<tr class="separator:a158c381c9eb021e22b2c511e595399d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d747f23cc85ce6b330b3bb3b6357b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html#a31d747f23cc85ce6b330b3bb3b6357b1">CopyProperties</a> (<a class="el" href="class_aerodynamic_objects_1_1_fluid_properties.html">FluidProperties</a> properties)</td></tr>
+<tr class="memdesc:a31d747f23cc85ce6b330b3bb3b6357b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the properties from the property class.  <a href="class_aerodynamic_objects_1_1_fluid.html#a31d747f23cc85ce6b330b3bb3b6357b1">More...</a><br /></td></tr>
+<tr class="separator:a31d747f23cc85ce6b330b3bb3b6357b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae7f42b8e14cff2602a864042bdd39bc2"><td class="memItemLeft" align="right" valign="top"><a id="ae7f42b8e14cff2602a864042bdd39bc2" name="ae7f42b8e14cff2602a864042bdd39bc2"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>pressure</b> = 101325.0</td></tr>
-<tr class="memdesc:ae7f42b8e14cff2602a864042bdd39bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pressure of the fluid around the object. Default value is 101,325 Pa. The same as 1 atmosphere of pressure. (Pa)  <br /></td></tr>
-<tr class="separator:ae7f42b8e14cff2602a864042bdd39bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33a49ed5a4a25ada638e3068068b1ad8"><td class="memItemLeft" align="right" valign="top"><a id="a33a49ed5a4a25ada638e3068068b1ad8" name="a33a49ed5a4a25ada638e3068068b1ad8"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>density</b> = 1.23</td></tr>
-<tr class="memdesc:a33a49ed5a4a25ada638e3068068b1ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The density of the fluid. Assuming incompressible flow. Typical values include 1.23 for air and 1000 for water. (kg/m^3)  <br /></td></tr>
-<tr class="separator:a33a49ed5a4a25ada638e3068068b1ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8fe4e5311e206de9c79b671316eaa51"><td class="memItemLeft" align="right" valign="top"><a id="ad8fe4e5311e206de9c79b671316eaa51" name="ad8fe4e5311e206de9c79b671316eaa51"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>dynamicViscosity</b> = 1.8e-5</td></tr>
-<tr class="memdesc:ad8fe4e5311e206de9c79b671316eaa51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamic viscosity of the fluid. (Nm/s)  <br /></td></tr>
-<tr class="separator:ad8fe4e5311e206de9c79b671316eaa51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a643a12f90a295af8d99e46ca0c1cd31d"><td class="memItemLeft" align="right" valign="top"><a id="a643a12f90a295af8d99e46ca0c1cd31d" name="a643a12f90a295af8d99e46ca0c1cd31d"></a>
-<a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>globalVelocity</b> = new <a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>(0.0, 0.0, 0.0)<code> [get]</code></td></tr>
-<tr class="memdesc:a643a12f90a295af8d99e46ca0c1cd31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the fluid in the global (earth) frame of reference. This is independent of the object's velocity. (m/s) (Read Only)  <br /></td></tr>
+<tr class="memitem:a643a12f90a295af8d99e46ca0c1cd31d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_flow_round_an_aerofoil_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html#a643a12f90a295af8d99e46ca0c1cd31d">globalVelocity</a> = Vector3.zero</td></tr>
+<tr class="memdesc:a643a12f90a295af8d99e46ca0c1cd31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the fluid in the global (earth) frame of reference.  <a href="class_aerodynamic_objects_1_1_fluid.html#a643a12f90a295af8d99e46ca0c1cd31d">More...</a><br /></td></tr>
 <tr class="separator:a643a12f90a295af8d99e46ca0c1cd31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46170a436d5a236135c777989da26b01"><td class="memItemLeft" align="right" valign="top"><a id="a46170a436d5a236135c777989da26b01" name="a46170a436d5a236135c777989da26b01"></a>
-<a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>localVelocity</b> = new <a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>(0.0, 0.0, 0.0)<code> [get]</code></td></tr>
-<tr class="memdesc:a46170a436d5a236135c777989da26b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the fluid in the object's frame of reference. This is independent of the object's velocity. (m/s) (Read Only)  <br /></td></tr>
+<tr class="memitem:a46170a436d5a236135c777989da26b01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_flow_round_an_aerofoil_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html#a46170a436d5a236135c777989da26b01">localVelocity</a> = Vector3.zero</td></tr>
+<tr class="memdesc:a46170a436d5a236135c777989da26b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the fluid in the object's frame of reference.  <a href="class_aerodynamic_objects_1_1_fluid.html#a46170a436d5a236135c777989da26b01">More...</a><br /></td></tr>
 <tr class="separator:a46170a436d5a236135c777989da26b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16b506d91b08421737d2d2cdeaacc99e"><td class="memItemLeft" align="right" valign="top"><a id="a16b506d91b08421737d2d2cdeaacc99e" name="a16b506d91b08421737d2d2cdeaacc99e"></a>
-<a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bodyVelocity</b> = new <a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>(0.0, 0.0, 0.0)<code> [get]</code></td></tr>
-<tr class="memdesc:a16b506d91b08421737d2d2cdeaacc99e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The velocity of the fluid in the body's frame of reference. This is independent of the object's velocity. (m/s) (Read Only)  <br /></td></tr>
-<tr class="separator:a16b506d91b08421737d2d2cdeaacc99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a606a1f4a5c7d4358edaa90a40da0c35d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html#a606a1f4a5c7d4358edaa90a40da0c35d">pressure</a> = 101325f</td></tr>
+<tr class="memdesc:a606a1f4a5c7d4358edaa90a40da0c35d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The pressure of the fluid around the object.  <a href="class_aerodynamic_objects_1_1_fluid.html#a606a1f4a5c7d4358edaa90a40da0c35d">More...</a><br /></td></tr>
+<tr class="separator:a606a1f4a5c7d4358edaa90a40da0c35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24bc982a89149c6f3f4b519ad1c68977"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html#a24bc982a89149c6f3f4b519ad1c68977">density</a> = 1.23f</td></tr>
+<tr class="memdesc:a24bc982a89149c6f3f4b519ad1c68977"><td class="mdescLeft">&#160;</td><td class="mdescRight">The density of the fluid.  <a href="class_aerodynamic_objects_1_1_fluid.html#a24bc982a89149c6f3f4b519ad1c68977">More...</a><br /></td></tr>
+<tr class="separator:a24bc982a89149c6f3f4b519ad1c68977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d35a601946658fb247667fc23e26e1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html#a62d35a601946658fb247667fc23e26e1">dynamicViscosity</a> = 1.8e-5f</td></tr>
+<tr class="memdesc:a62d35a601946658fb247667fc23e26e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamic viscosity of the fluid.  <a href="class_aerodynamic_objects_1_1_fluid.html#a62d35a601946658fb247667fc23e26e1">More...</a><br /></td></tr>
+<tr class="separator:a62d35a601946658fb247667fc23e26e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >Contains the properties and state of a fluid.  </p>
+<div class="textblock"><p >Contains the properties and state of a fluid. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a158c381c9eb021e22b2c511e595399d7" name="a158c381c9eb021e22b2c511e595399d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a158c381c9eb021e22b2c511e595399d7">&#9670;&#160;</a></span>SetVelocity()</h2>
+<a id="a31d747f23cc85ce6b330b3bb3b6357b1" name="a31d747f23cc85ce6b330b3bb3b6357b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d747f23cc85ce6b330b3bb3b6357b1">&#9670;&#160;</a></span>CopyProperties()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AerodynamicObjects.Fluid.SetVelocity </td>
+          <td class="memname">void AerodynamicObjects.Fluid.CopyProperties </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>&#160;</td>
-          <td class="paramname"><em>_globalVelocity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="class_aerodynamic_objects_1_1_fluid_properties.html">FluidProperties</a>&#160;</td>
+          <td class="paramname"><em>properties</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>&#160;</td>
-          <td class="paramname"><em>_localVelocity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_aerodynamic_objects_1_1_numerics_1_1_vector3.html">Vector3</a>&#160;</td>
-          <td class="paramname"><em>_bodyVelocity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the velocity of the fluid. Requires the velocity in both the object frame and the body frame. This is an internally used function. Consider using <a class="el" href="class_aerodynamic_objects_1_1_aerodynamic_object.html#ae36be3ccb3fa256690493f395a6e4d56" title="Sets the velocity of the fluid around the object using a velocity in the global (earth) frame of refe...">AerodynamicObject.SetFluidVelocity</a> instead.  </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">_globalVelocity</td><td>Velocity of the fluid in the global (earth) frame of reference. (m/s)</td></tr>
-    <tr><td class="paramname">_localVelocity</td><td>Velocity of the fluid in the object's frame of reference. (m/s)</td></tr>
-    <tr><td class="paramname">_bodyVelocity</td><td>Velocity of the fluid in the body's frame of reference. (m/s)</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Copies the properties from the property class. </p>
+<p >We haven't included the class in this script for brevity.  </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a24bc982a89149c6f3f4b519ad1c68977" name="a24bc982a89149c6f3f4b519ad1c68977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24bc982a89149c6f3f4b519ad1c68977">&#9670;&#160;</a></span>density</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AerodynamicObjects.Fluid.density = 1.23f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The density of the fluid. </p>
+<p >Assuming incompressible flow. Typical values include 1.23 for air and 1000 for water. (kg/m^3)  </p>
+
+</div>
+</div>
+<a id="a62d35a601946658fb247667fc23e26e1" name="a62d35a601946658fb247667fc23e26e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62d35a601946658fb247667fc23e26e1">&#9670;&#160;</a></span>dynamicViscosity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AerodynamicObjects.Fluid.dynamicViscosity = 1.8e-5f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Dynamic viscosity of the fluid. </p>
+<p >Default value is 1.8e-5 for air. (Nm/s)  </p>
+
+</div>
+</div>
+<a id="a643a12f90a295af8d99e46ca0c1cd31d" name="a643a12f90a295af8d99e46ca0c1cd31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a643a12f90a295af8d99e46ca0c1cd31d">&#9670;&#160;</a></span>globalVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_flow_round_an_aerofoil_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> AerodynamicObjects.Fluid.globalVelocity = Vector3.zero</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The velocity of the fluid in the global (earth) frame of reference. </p>
+<p >This is independent of the object's velocity. (m/s) (Read Only)  </p>
+
+</div>
+</div>
+<a id="a46170a436d5a236135c777989da26b01" name="a46170a436d5a236135c777989da26b01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46170a436d5a236135c777989da26b01">&#9670;&#160;</a></span>localVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_flow_round_an_aerofoil_8cs.html#af3326292fdd04d2b384b6d781d9594f6">Vector3</a> AerodynamicObjects.Fluid.localVelocity = Vector3.zero</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The velocity of the fluid in the object's frame of reference. </p>
+<p >This is independent of the object's velocity. (m/s) (Read Only)  </p>
+
+</div>
+</div>
+<a id="a606a1f4a5c7d4358edaa90a40da0c35d" name="a606a1f4a5c7d4358edaa90a40da0c35d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a606a1f4a5c7d4358edaa90a40da0c35d">&#9670;&#160;</a></span>pressure</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float AerodynamicObjects.Fluid.pressure = 101325f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The pressure of the fluid around the object. </p>
+<p >Default value is 101,325 Pa. The same as 1 atmosphere of pressure. (Pa)  </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>AerodynamicObjectsSource/Fluid.cs</li>
+<li>C:/Unity/AO 2/Assets/AO/Scripts/Flow/<a class="el" href="_fluid_8cs.html">Fluid.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -193,7 +245,7 @@ Properties</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_aerodynamic_objects.html">AerodynamicObjects</a></li><li class="navelem"><a class="el" href="class_aerodynamic_objects_1_1_fluid.html">Fluid</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Fri Dec 20 2024 12:42:22 for Aerodynamic Objects Core by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

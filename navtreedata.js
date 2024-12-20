@@ -49,8 +49,7 @@ var NAVTREE =
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
-        [ "Enumerations", "globals_enum.html", null ]
+        [ "Typedefs", "globals_type.html", null ]
       ] ]
     ] ]
   ] ]
@@ -59,16 +58,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_actuator_8cs.html",
-"class_aerodynamic_objects_1_1_aero_object.html#ab699d1b594cf72574eae29c8768230f0",
-"class_aerodynamic_objects_1_1_aerodynamics_1_1_lift_model.html#a8952703d44fc3fdc0597e44a2a3030d3",
-"class_aerodynamic_objects_1_1_control_surface.html#a50ceee9d08d16740a6da41eb414b082f",
-"class_aerodynamic_objects_1_1_demos_1_1_body_motion.html",
-"class_aerodynamic_objects_1_1_demos_1_1_generator.html#aff01080ef7aad455770ff7898c60ed64",
-"class_aerodynamic_objects_1_1_demos_1_1_propeller_engine.html",
-"class_aerodynamic_objects_1_1_demos_1_1_wind_turbine_editor.html",
-"class_aerodynamic_objects_1_1_flow_1_1_vortex_filament.html#a4fb268145475123f33110807a908c194",
-"class_aerodynamic_objects_1_1_fluid_volume.html#a04e05559d75dea0871b9b60cb45490ba",
-"class_aerodynamic_objects_1_1_utility_1_1_gimbal.html#a69a9780d2aa120951388e9a4de3b69a3"
+"class_aerodynamic_objects_1_1_aero_object.html#ac99593347606d248da943454d7a1e00d",
+"class_aerodynamic_objects_1_1_aerodynamics_1_1_lift_model.html#a9b9eb108b74a89e702925034b6001042",
+"class_aerodynamic_objects_1_1_control_surface.html#a60a5a7199ff3d9f2ec18bf287311081d",
+"class_aerodynamic_objects_1_1_demos_1_1_body_motion.html#a66190b936fd7a8748bd3f9af9ec0d761",
+"class_aerodynamic_objects_1_1_demos_1_1_glider_spawner.html",
+"class_aerodynamic_objects_1_1_demos_1_1_propeller_engine.html#a011c6b1010d7e32aed9fa0641afce4c0",
+"class_aerodynamic_objects_1_1_demos_1_1_wind_turbine_editor.html#a4a1583a2c23eb8d66d4b525db24dddf3",
+"class_aerodynamic_objects_1_1_flow_1_1_vortex_filament.html#a513daedb35793392f9acd22618a75237",
+"class_aerodynamic_objects_1_1_fluid_volume.html#a0e935de90694f569cb66ad59ee4074a8",
+"class_aerodynamic_objects_1_1_utility_1_1_gimbal.html#a6e242d0916d6c50941430e7e417864ce"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

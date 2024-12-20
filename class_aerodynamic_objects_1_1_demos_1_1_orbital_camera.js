@@ -8,6 +8,6 @@ var class_aerodynamic_objects_1_1_demos_1_1_orbital_camera =
     [ "elevationSpeed", "class_aerodynamic_objects_1_1_demos_1_1_orbital_camera.html#a839c9709ab725d4997ba09a9f7a4b6a2", null ],
     [ "heading", "class_aerodynamic_objects_1_1_demos_1_1_orbital_camera.html#a7d6d5aadfa4cf6ace1e8be7f6f546c9f", null ],
     [ "headingSpeed", "class_aerodynamic_objects_1_1_demos_1_1_orbital_camera.html#a3b1a99296f4a4f7ebdc040b071473910", null ],
-    [ "scrollSpeed", "class_aerodynamic_objects_1_1_demos_1_1_orbital_camera.html#ab2796d75c67cc5c3914c22a2d61257ae", null ],
+    [ "scrollRate", "class_aerodynamic_objects_1_1_demos_1_1_orbital_camera.html#afbbc33c9bb38542cc01c413115079f21", null ],
     [ "target", "class_aerodynamic_objects_1_1_demos_1_1_orbital_camera.html#a36a51cc0dc8b55b607cd655d0c90c591", null ]
 ];

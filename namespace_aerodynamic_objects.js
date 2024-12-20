@@ -45,6 +45,7 @@ var namespace_aerodynamic_objects =
     [ "WindArrow", "class_aerodynamic_objects_1_1_wind_arrow.html", "class_aerodynamic_objects_1_1_wind_arrow" ],
     [ "WindTools", "class_aerodynamic_objects_1_1_wind_tools.html", "class_aerodynamic_objects_1_1_wind_tools" ],
     [ "Fade", "namespace_aerodynamic_objects.html#acf279d0cc8a66600a0a87e0b3f6bce39", null ],
+    [ "FlowDetectionType", "namespace_aerodynamic_objects.html#a858cf5a14748c30fd96ddab2009d5da3", null ],
     [ "VelocitySource", "namespace_aerodynamic_objects.html#a9747dfe1abfbf7f740059ece56f2bef8", null ],
     [ "VelocityEventHandler", "namespace_aerodynamic_objects.html#aa2a2b87362298ea936e0c6a40c4ba332", null ]
 ];

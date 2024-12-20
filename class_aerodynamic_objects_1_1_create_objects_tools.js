@@ -1,6 +1,7 @@
 var class_aerodynamic_objects_1_1_create_objects_tools =
 [
     [ "CreateAeroObject", "class_aerodynamic_objects_1_1_create_objects_tools.html#a0eb8e63093d2d2acb205bde6a3c62623", null ],
+    [ "CreateAreaSource", "class_aerodynamic_objects_1_1_create_objects_tools.html#ab78b22af875ca9d6c5b165cb14c21602", null ],
     [ "CreateDisplacementBody", "class_aerodynamic_objects_1_1_create_objects_tools.html#a3778a2def49b2238cdc6b9a777d61021", null ],
     [ "CreateFilament", "class_aerodynamic_objects_1_1_create_objects_tools.html#a08a6052b1a89b4f1e1a4c663958a711d", null ],
     [ "CreateFlowArrows", "class_aerodynamic_objects_1_1_create_objects_tools.html#a43dd9ac4c1336a111866df7f12faa2eb", null ],

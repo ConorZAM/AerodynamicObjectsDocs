@@ -25,7 +25,7 @@ var searchData=
   ['flowaffected_22',['FlowAffected',['../class_aerodynamic_objects_1_1_flow_affected.html',1,'AerodynamicObjects']]],
   ['flowaffected_2ecs_23',['FlowAffected.cs',['../_flow_affected_8cs.html',1,'']]],
   ['flowaffectedobject_24',['flowAffectedObject',['../class_aerodynamic_objects_1_1_utility_1_1_ignore_interaction_helper_1_1_ignore_interaction_collection.html#a0711f3907c0f4012aaa93b4d10f99dab',1,'AerodynamicObjects::Utility::IgnoreInteractionHelper::IgnoreInteractionCollection']]],
-  ['flowdetectiontype_25',['FlowDetectionType',['../_flow_detection_type_8cs.html#a19bda27ed0c6d9605d938082eb034347',1,'FlowDetectionType.cs']]],
+  ['flowdetectiontype_25',['FlowDetectionType',['../namespace_aerodynamic_objects.html#a858cf5a14748c30fd96ddab2009d5da3',1,'AerodynamicObjects']]],
   ['flowdetectiontype_2ecs_26',['FlowDetectionType.cs',['../_flow_detection_type_8cs.html',1,'']]],
   ['flowfieldarrows_27',['FlowFieldArrows',['../class_aerodynamic_objects_1_1_flow_field_arrows.html',1,'AerodynamicObjects']]],
   ['flowfieldarrows_2ecs_28',['FlowFieldArrows.cs',['../_flow_field_arrows_8cs.html',1,'']]],
